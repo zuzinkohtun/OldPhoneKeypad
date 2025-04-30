@@ -32,6 +32,7 @@ OldPhoneKeypad/
     dotnet run
     ```
 3. Input format
+```
 | Key   | Meaning                    |
 |-------|----------------------------|
 | 1     | &’(      |
@@ -40,7 +41,7 @@ OldPhoneKeypad/
 | *     | Backspace (delete letter)  |
 | (space) | Pause between same-key presses |
 | #     | Send / end of input        |
-
+```
 #### Example
 - 33# => output: E
 - 227*# => output: B
