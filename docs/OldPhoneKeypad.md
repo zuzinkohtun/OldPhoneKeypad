@@ -71,4 +71,5 @@ OldPhoneKeypad/
 | `4433555 555666#`           | `HELLO`         | Full word with pauses (` `) between key groups   |
 | `8 88777444666*664#`        | `TURING`          | Complex input with backspace and same-key pause  |
 | `777782777 7777#`                | `STARS`            | Same character repeated with a pause             |
+| `84426655099966688#`                | `STARS`            | For space value             |
 ```
