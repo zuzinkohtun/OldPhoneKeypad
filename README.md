@@ -22,3 +22,14 @@ Run the application using the following command:
    ```bash
    dotnet test
    ```
+ ### 3. Usage
+- Run the program
+- Enter the keypad sequence ending with #
+- Get the decoded message!
+- Valid characters:
+  - 1: &’(
+  - 2–9: Letters
+  - 0: Space
+  - *: Backspace
+  - (space): Pause between letters on the same key
+  - #: End and decode input
