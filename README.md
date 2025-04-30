@@ -8,18 +8,18 @@ This project simulates text input from an old mobile phone keypad. Each button h
 2. Build the Project
 Build the project to ensure that everything is set up correctly:
 
-```bash
-dotnet build
-```
+   ```bash
+   dotnet build
+   ```
 
 3. Run the Application
 Run the application using the following command:
-```bash
-dotnet run
-```
+   ```bash
+   dotnet run
+   ```
 
-4. 5. Run the Test
+4. Run the Test
 Run the application using the following command:
-```bash
-dotnet test
-```
+   ```bash
+   dotnet test
+   ```
