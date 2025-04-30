@@ -3,6 +3,7 @@
 This project simulates the behavior of a traditional mobile phone keypad for typing letters using multiple keypresses. The goal is to interpret a string of numeric inputs and convert it into readable text.
 
 ### Project Structure
+```
 OldPhoneKeypad/
 │
 ├── src/
@@ -12,7 +13,7 @@ OldPhoneKeypad/
 ├── tests/
 │   └── OldPHoneKeypad.Test/                # Unit Test
 │   │   └── OldPhonePadTest.cs
-
+```
 ### Setup Instructions
 1. Prerequisites
     - .NET 9.0 SDK
@@ -31,6 +32,7 @@ OldPhoneKeypad/
     dotnet run
     ```
 3. Input format
+```
 | Key   | Meaning                    |
 |-------|----------------------------|
 | 1     | &’(      |
@@ -39,7 +41,7 @@ OldPhoneKeypad/
 | *     | Backspace (delete letter)  |
 | (space) | Pause between same-key presses |
 | #     | Send / end of input        |
-
+```
 #### Example
 - 33# => output: E
 - 227*# => output: B
