@@ -39,10 +39,24 @@ public class OldPhoneKeypadTests
     }
 
     [Fact]
+    public void ShouldReturnEmptyOnEmptyInput()
+    {
+        var result = OldPhonePadExtension.OldPhonePad("#");
+        Assert.Equal("", result);
+    }
+
+    [Fact]
+    public void ShouldReturnABCA()
+    {
+        var result = OldPhonePadExtension.OldPhonePad("2 22 222 2222#"); // A, B, C, A
+        Assert.Equal("ABCA", result);
+    }
+
+    [Fact]
     public void ShouldReturnThankYou()
     {
         var result = OldPhonePadExtension.OldPhonePad("84426655099966688#");
         Assert.Equal("THANK YOU", result);
     }
-    
+
 }
