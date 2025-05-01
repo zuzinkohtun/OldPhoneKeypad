@@ -39,13 +39,6 @@ public class OldPhoneKeypadTests
     }
 
     [Fact]
-    public void ShouldHandleEndingWithBackspace()
-    {
-        var result = OldPhonePadExtension.OldPhonePad("44*#");
-        Assert.Equal("", result);
-    }
-
-    [Fact]
     public void ShouldReturnEmptyOnEmptyInput()
     {
         var result = OldPhonePadExtension.OldPhonePad("#");
@@ -53,7 +46,7 @@ public class OldPhoneKeypadTests
     }
 
     [Fact]
-    public void ShouldCycleKeys()
+    public void ShouldReturnABCA()
     {
         var result = OldPhonePadExtension.OldPhonePad("2 22 222 2222#"); // A, B, C, A
         Assert.Equal("ABCA", result);

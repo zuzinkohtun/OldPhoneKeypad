@@ -70,6 +70,8 @@ OldPhoneKeypad/
 | `227*#`                     | `B`             | Backspace removes the last `7`                   |
 | `4433555 555666#`           | `HELLO`         | Full word with pauses (` `) between key groups   |
 | `8 88777444666*664#`        | `TURING`          | Complex input with backspace and same-key pause  |
-| `9#`                        | `W`             | Single key press for character                   |
 | `777782777 7777#`                | `STARS`            | Same character repeated with a pause             |
+| `#`                        | ``             | Empty on empty input |
+| `2 22 222 2222#`        | `ABCA`          |  Process on cycle keys |
+| `84426655099966688#`        | `THANK YOU`          | Complex data  |
 ```
